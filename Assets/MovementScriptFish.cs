@@ -8,7 +8,6 @@ public class MovementScriptFish : MonoBehaviour
     public float Force = 100f;
     public float rotForce = 300f;
 
-    public Camera camera;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
