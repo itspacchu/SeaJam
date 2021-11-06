@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637717556480000000
+      ticks: 637717891660000000
     m_Hash: 3259418444
   m_LockFileStatus:
     m_FilePath: /home/pac/winmount/Pacchu/Documents/Unity/SomeProject/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637717556500000000
+      ticks: 637717891660000000
     m_Hash: 135520804
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

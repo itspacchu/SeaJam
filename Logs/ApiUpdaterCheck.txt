@@ -78,3 +78,13 @@ C# parse time         : 172ms
 candidates check time : 25ms
 console write time    : 0ms
 
+[api-updater (non-obsolete-error-filter)] 11/06/2021 10:30:03 : Starting /home/pac/winmount/LinAppImg/UnityEditors/2020.3.21f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 292.907ms
+moved types parse time: 45ms
+candidates parse time : 1ms
+C# parse time         : 412ms
+candidates check time : 23ms
+console write time    : 0ms
+
