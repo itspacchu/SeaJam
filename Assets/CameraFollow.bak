@@ -1,0 +1,38 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CameraFollow : MonoBehaviour
+{
+    // Start is called before the first frame update
+    public Transform player;
+    public float smoothening;
+    public Vector3 offset;
+
+    public float Radius;
+    public float rotationSpeed = 0.1f;
+
+    // Update is called once per frame
+    void LateUpdate()
+    {
+        Vector3 finpos = player.position;
+        // Vector3 rtpos = Vector3.Lerp(transform.position, finpos, smoothening * Time.deltaTime);
+        // rtpos.z += Radius*Mathf.Sin(player.rotation.y);
+        // rtpos.x += Radius*Mathf.Cos(player.rotation.y);
+        Vector3 angularOffset = new Vector3(Radius * Mathf.Sin(player.rotation.eulerAngles.y * Mathf.PI/180), 0, Radius * Mathf.Cos(player.rotation.eulerAngles.y * Mathf.PI/180));
+        Vector3 rtpos = player.position + offset - angularOffset;
+        transform.position = rtpos;
+        
+        
+        
+        // Look at Computation
+        Vector3 cameraRotation = transform.rotation.eulerAngles;
+        cameraRotation.y = player.rotation.eulerAngles.y;
+        transform.rotation = Quaternion.Slerp(transform.rotation,Quaternion.Euler(cameraRotation), rotationSpeed*Time.deltaTime);
+    }
+
+    private void OnDrawGizmos() {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, 1);
+    }
+}
