@@ -1,0 +1,9 @@
+Base path: '/home/pac/winmount/LinAppImg/UnityEditors/2020.3.21f1/Editor/Data', plugins path '/home/pac/winmount/LinAppImg/UnityEditors/2020.3.21f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+
+Cmd: initializeCompiler
+
+Cmd: compileComputeKernel
+  insize=1893 file=/home/pac/winmount/Pacchu/Documents/Unity/SomeProject/Library/PackageCache/com.unity.cinemachine@2.6.11/Editor/EditorResources/CMWaveform.compute kernel=KCMWaveformClear cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=4096 ok=1 outsize=2755
+
