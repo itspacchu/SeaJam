@@ -10,14 +10,14 @@ public class CameraFollow : MonoBehaviour
     public Vector3 offset;
     public float rotationSpeed = 0.1f;
     // Update is called once per frame
-    void LateUpdate()
+    void FixedUpdate()
     {
         Vector3 finpos = player.position + offset;
-        Vector3 rtpos = Vector3.Lerp(transform.position, finpos, smoothening * Time.deltaTime);
+        Vector3 rtpos = Vector3.Lerp(transform.position, finpos, smoothening * Time.fixedDeltaTime);
         transform.position = rtpos;
 
         // lerped look at
         Quaternion targetRotation = Quaternion.LookRotation(player.position - transform.position);
-        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation , rotationSpeed * Time.deltaTime);
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation , rotationSpeed * Time.fixedDeltaTime);
     }
 }
