@@ -34,8 +34,7 @@ public class VectorField {
     }
 }
 
-public class GlobalVectorField : MonoBehaviour
-{
+public class GlobalVectorField : MonoBehaviour {
     public VectorField vf;
     public float vscale = 1;
 

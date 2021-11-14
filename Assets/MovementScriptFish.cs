@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovementScriptFish : MonoBehaviour
-{
+public class MovementScriptFish : MonoBehaviour {
     public Rigidbody rb;
     public float Force = 100f;
     public float rotForce = 300f;
