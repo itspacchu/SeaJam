@@ -38,7 +38,6 @@ ExportedObj/
 *.suo
 *.tmp
 *.user
-*.userprefs
 *.pidb
 *.booproj
 *.svd
@@ -58,7 +57,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.aab
-*.unitypackage
 
 # Crashlytics generated file
 crashlytics-build.properties
