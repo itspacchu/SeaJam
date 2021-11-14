@@ -449,7 +449,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0.5
-  m_AngularDrag: 0.5
+  m_AngularDrag: 3
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -469,7 +469,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
   Force: 750
-  rotForce: 300
+  rotForce: 350
   GlobalField: {fileID: 2127997591}
   ambientVectorFieldAmplitude: 3
 --- !u!4 &1044388631
@@ -619,9 +619,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1044388631}
-  smoothening: 0.2
-  offset: {x: 0, y: 0, z: -12}
-  rotationSpeed: 12
+  smoothening: 2
+  offset: {x: 0, y: 6, z: -12}
+  rotationSpeed: 7
 --- !u!1 &1445963587
 GameObject:
   m_ObjectHideFlags: 0
